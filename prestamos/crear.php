@@ -4,8 +4,7 @@ require_once '../config/db.php';
 // Obtener lista de libros disponibles para prestar
 $libros = $conexion->query("SELECT id, titulo, isbn FROM libros WHERE stock > 0 ORDER BY titulo ASC");
 ?>
-<?php include '../includes/header.php'; ?>
-
+<?php include '../includes/header.php'; ?> 
 <div class="form-container">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h1 class="h3 text-primary mb-0">
@@ -15,7 +14,6 @@ $libros = $conexion->query("SELECT id, titulo, isbn FROM libros WHERE stock > 0 
             <i class="fas fa-arrow-left me-2"></i>Volver a Préstamos
         </a>
     </div>
-
     <?php if ($libros->num_rows === 0): ?>
     <div class="alert alert-warning">
         <i class="fas fa-exclamation-triangle me-2"></i>
