@@ -1,0 +1,30 @@
+ body {
+    background-color: #f8f9fa;
+}
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.form-section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-left: 4px solid #0d6efd;
+}
+.preview-image {
+    max-width: 200px;
+    max-height: 250px;
+    border-radius: 10px;
+    border: 2px solid #dee2e6;
+    padding: 5px;
+}
+.current-image {
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+}

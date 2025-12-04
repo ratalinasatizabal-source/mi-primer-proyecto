@@ -1,0 +1,10 @@
+.book-cover {
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .info-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+        }
